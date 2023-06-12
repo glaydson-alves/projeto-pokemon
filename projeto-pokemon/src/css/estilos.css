@@ -1,22 +1,25 @@
 body{
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins', sans-serif; 
     max-width: 1280px;
     margin: 0 auto;
     background-color: #5e5b5bab;
     color: #333333;
 }
 
-body.modo-escuro{                           /*será ativado com o js*/
+body.modo-escuro{ /*será ativado com o js*/
     background-color: #212121;
     color: #f5f5f5;
 }
 
 header{
     display: flex; /*coloca um do lado do outro*/
-    justify-content: space-between; /*coloca um para cada lado*/
+    justify-content: space-between; /*Distribui e alinha os elementos filhos ao longo de todo o espaço do eixo principal, de modo que ocupem todo o espaço livre de forma uniforme.*/
     padding: 25px;
 }
-
+header .logo-pokemon{
+    width: 200px;
+    transition: 0.2s ease-in-out;
+}
 header .logo,
 header .imagem-botao{
     width: 30px;
@@ -30,6 +33,7 @@ header #botao-alterar-tema{
 /*psedo class/ hover= quando passar pór cima*/
 
 header .logo:hover,
+header .logo-pokemon:hover,
 header .imagem-botao:hover,
 main .cartao-pokemon:hover{
     transform: scale(1.05);
