@@ -1,0 +1,9 @@
+*{                      /* o "*" estiliza todas as tads html*/
+    margin: 0;  /*espaçamento externo*/
+    padding: 0; /*espaçamento interno*/
+    box-sizing: border-box;
+} 
+
+ul{
+    list-style: none; /*estilo da lista nenhum*/
+}
