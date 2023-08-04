@@ -13,7 +13,7 @@ body.modo-escuro{ /*será ativado com o js*/
     background-color: #212121;
     background-image: url(../imagens/noite.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: #f5f5f5;
 }
 
@@ -125,3 +125,31 @@ main .descricao{
     font-size: 14px;
     padding-right: 10px;     /* espaçamento para a direita */
 }
+<<<<<<< HEAD
+
+
+@media (min-width:768px) and (max-width:1023px){
+    body{ 
+        background-size: contain;
+        background-color: #103120;
+    }
+    
+    body.modo-escuro{
+        background-color: #001018;
+        background-size: contain;
+}
+}
+
+@media screen and (max-width:767px) {
+    body{ 
+        background-size: contain;
+        background-color: #103120;
+    }
+    
+    body.modo-escuro{
+        background-color: #001018;
+        background-size: contain;
+}
+}
+=======
+>>>>>>> a6bfe6f59aab2f9666d79da7d545092cd656b854
