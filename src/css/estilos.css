@@ -125,7 +125,6 @@ main .descricao{
     font-size: 14px;
     padding-right: 10px;     /* espaçamento para a direita */
 }
-<<<<<<< HEAD
 
 
 @media (min-width:768px) and (max-width:1023px){
@@ -151,5 +150,3 @@ main .descricao{
         background-size: contain;
 }
 }
-=======
->>>>>>> a6bfe6f59aab2f9666d79da7d545092cd656b854
